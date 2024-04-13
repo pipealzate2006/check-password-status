@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body {
+  background-color: #34495e;
+}
+
+.form {
+  display: block;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-i i {
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.password label,
+input,
+button {
+  margin: 5px 0;
+}
+
+.form input {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #00000031;
+  padding: 5px;
+}
+
+.password button {
+  border: none;
+  border-radius: 15px;
+  background-color: #34495e;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px #00000083;
+  transition: all 0.5s;
+}
+
+.password button:hover {
+  transform: scale(1.06);
+}
+
+.active {
+  display: block;
+}
+
+.inactive {
+  display: none;
+}
+
+.bad {
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.177);
+  color: red;
+  border-color: red;
+}
+
+.good {
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.266);
+  color: green;
+  border-color: green;
+}
+
+.form img {
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px #00000042;
+}
